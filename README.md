@@ -36,9 +36,9 @@ we add these line to swiftui_notification.swift file:
       
 obtaining the device token as a result of successful registration for remote notification:
 
-            func application(
+     func application(
               _ application: UIApplication,
               didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
               let token = deviceToken.reduce("") { $0 + String(format: "%02x", $1) }
               print(token)
-            } 
+       } 
