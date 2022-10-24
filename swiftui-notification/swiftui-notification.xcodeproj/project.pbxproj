@@ -13,6 +13,7 @@
 		543469D82906AA5C009E8773 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543469D72906AA5C009E8773 /* Preview Assets.xcassets */; };
 		543469E02906AC22009E8773 /* Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543469DF2906AC22009E8773 /* Local.swift */; };
 		543469E22906AC3B009E8773 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543469E12906AC3B009E8773 /* Remote.swift */; };
+		54AC63DF29070B5C001EC50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC63DE29070B5C001EC50A /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		543469D72906AA5C009E8773 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		543469DF2906AC22009E8773 /* Local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local.swift; sourceTree = "<group>"; };
 		543469E12906AC3B009E8773 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		54AC63DC2907093C001EC50A /* swiftui-notification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftui-notification.entitlements"; sourceTree = "<group>"; };
+		54AC63DE29070B5C001EC50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 		543469CF2906AA5A009E8773 /* swiftui-notification */ = {
 			isa = PBXGroup;
 			children = (
+				54AC63DC2907093C001EC50A /* swiftui-notification.entitlements */,
+				54AC63DD29070B2C001EC50A /* AppDelegate */,
 				543469DE2906ABF2009E8773 /* Views */,
 				543469D02906AA5A009E8773 /* swiftui_notificationApp.swift */,
 				543469D22906AA5A009E8773 /* ContentView.swift */,
@@ -79,6 +84,14 @@
 				543469E12906AC3B009E8773 /* Remote.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		54AC63DD29070B2C001EC50A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				54AC63DE29070B5C001EC50A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				543469D32906AA5A009E8773 /* ContentView.swift in Sources */,
 				543469E02906AC22009E8773 /* Local.swift in Sources */,
 				543469D12906AA5A009E8773 /* swiftui_notificationApp.swift in Sources */,
+				54AC63DF29070B5C001EC50A /* AppDelegate.swift in Sources */,
 				543469E22906AC3B009E8773 /* Remote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-notification/swiftui-notification.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-notification/Preview Content\"";
@@ -309,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-notification/swiftui-notification.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-notification/Preview Content\"";
