@@ -56,4 +56,4 @@ func application(
  ```     
   ### Note: Authentication token is needed in order to establish a secure connection between the backend and the ios app
 
-<img src="./img/info.png" width="500" alt="App Screenshot 1"> 
+<img src="./img/info.png" width="800" alt="App Screenshot 1"> 
