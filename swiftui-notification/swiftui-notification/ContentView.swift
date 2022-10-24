@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            Local()
+                .tabItem {
+                    Image(systemName: "bell.circle.fill")
+                    Text("Local Notification")
+                }
+            Remote()
+                .tabItem {
+                    Image(systemName: "bell.and.waveform")
+                    Text("Remote Notification")
+                }
+                
+        }
     }
 }
 

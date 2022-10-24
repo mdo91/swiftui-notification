@@ -11,6 +11,8 @@
 		543469D32906AA5A009E8773 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543469D22906AA5A009E8773 /* ContentView.swift */; };
 		543469D52906AA5C009E8773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543469D42906AA5C009E8773 /* Assets.xcassets */; };
 		543469D82906AA5C009E8773 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543469D72906AA5C009E8773 /* Preview Assets.xcassets */; };
+		543469E02906AC22009E8773 /* Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543469DF2906AC22009E8773 /* Local.swift */; };
+		543469E22906AC3B009E8773 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543469E12906AC3B009E8773 /* Remote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		543469D22906AA5A009E8773 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		543469D42906AA5C009E8773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543469D72906AA5C009E8773 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		543469DF2906AC22009E8773 /* Local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local.swift; sourceTree = "<group>"; };
+		543469E12906AC3B009E8773 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		543469CF2906AA5A009E8773 /* swiftui-notification */ = {
 			isa = PBXGroup;
 			children = (
+				543469DE2906ABF2009E8773 /* Views */,
 				543469D02906AA5A009E8773 /* swiftui_notificationApp.swift */,
 				543469D22906AA5A009E8773 /* ContentView.swift */,
 				543469D42906AA5C009E8773 /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				543469D72906AA5C009E8773 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		543469DE2906ABF2009E8773 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				543469DF2906AC22009E8773 /* Local.swift */,
+				543469E12906AC3B009E8773 /* Remote.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				543469D32906AA5A009E8773 /* ContentView.swift in Sources */,
+				543469E02906AC22009E8773 /* Local.swift in Sources */,
 				543469D12906AA5A009E8773 /* swiftui_notificationApp.swift in Sources */,
+				543469E22906AC3B009E8773 /* Remote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
