@@ -59,5 +59,7 @@ func application(
 <img src="./img/info.png" width="800" alt="App Screenshot 1"> 
 
 After creating an auhtentication token via Member center of apple developer dashboard we need to use the auhtentication token in order to send a notification.
+
 MacOS app folder has an open source mac-os application that allows us to push notification by providing authentication key, key ID, team ID and payload as illustrated in the image below:
+
 <img src="./img/push-notification-tester.png" width="800" alt="push notification tester"> 
