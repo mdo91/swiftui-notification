@@ -4,7 +4,7 @@ sample app for both remote and local notification
 ### Note: Push Notifications should be added in Sigining & Capabilities section of the project. 
 
 creating the following app delegate class for preparing the app to recieve push notification:
-
+```swift
       import UIKit
       import UserNotifications
 
@@ -29,6 +29,7 @@ creating the following app delegate class for preparing the app to recieve push 
           return true
         }
       }
+```
       
 Since SwiftUI lifecycle apps no longer call the app delegate by default, we’ll need to tell SwiftUI to use the app delegate you just created:
 we add these line to swiftui_notification.swift file:
