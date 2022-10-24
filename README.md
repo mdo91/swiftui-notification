@@ -1,6 +1,8 @@
 # swiftui-notification
 sample app for both remote and local notification 
 
+note: Push Notifications should be added in Sigining & Capabilities section of the project. 
+
 creating the following app delegate class for preparing the app to recieve push notification:
 
       import UIKit
