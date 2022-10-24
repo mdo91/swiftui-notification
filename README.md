@@ -3,8 +3,8 @@ sample app for both remote and local notification
 
 creating the following app delegate for preparing the app to recieve push notification:
 
-import UIKit
-import UserNotifications
+      import UIKit
+      import UserNotifications
 
       class AppDelegate: NSObject, UIApplicationDelegate {
         // 1
