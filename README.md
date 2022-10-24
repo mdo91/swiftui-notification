@@ -51,3 +51,5 @@ in case the process of registering the device for remote notification we can tri
         didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print(error)
       }
+      
+  ### Note: Authentication token is needed in order to establish a secure connection between the backend and the ios app
