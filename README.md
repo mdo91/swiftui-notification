@@ -42,3 +42,10 @@ obtaining the device token as a result of successful registration for remote not
               let token = deviceToken.reduce("") { $0 + String(format: "%02x", $1) }
               print(token)
        } 
+in case the process of registering the device for remote notification we can trigger the error with the following function:
+
+      func application(
+        _ application: UIApplication,
+        didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print(error)
+      }
